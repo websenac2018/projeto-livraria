@@ -1,0 +1,9 @@
+{
+    "name": "projetofinal/loja",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
