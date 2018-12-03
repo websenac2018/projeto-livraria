@@ -9,7 +9,7 @@ function registrarUsuario($login, $nome, $sobrenome, $email, $cpf, $datanascimen
 }
 function logarUsuario($login, $nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha){
 	$conexao = getConnection();
-	$sql = "SELECT * FROM usuarios where ";
+	$sql = "SELECT * FROM usuarios where email = '$email' and senha = md5('$senha')";
 	$resultado = mysqli_query($conexao, $sql);
 	return mysqli_fetch_assoc($resultado);
 }
