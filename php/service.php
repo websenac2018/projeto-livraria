@@ -1,5 +1,5 @@
 <?php
-require_once 'crud.php';
+require_once 'crud-registro.php';
 	function serviceLogin($login, $nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha){
 		if ($user = logarUsuario($login, $nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha)){
 			return $user;
