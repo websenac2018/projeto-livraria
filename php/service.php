@@ -1,6 +1,6 @@
 <?php
 require_once 'crud-registro.php';
-	function serviceLogin($login, $nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha){
+	function serviceLogin($nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha){
 		if ($user = logarUsuario($login, $nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha)){
 			return $user;
 		} else {
@@ -8,8 +8,8 @@ require_once 'crud-registro.php';
 		}
 	}
 
-	function serviceRegistro($login, $nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha){
-		if ($user = registrarUsuario($login, $nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha)){
+	function serviceRegistro($nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha, $cep, $end, $num, $complemento, $bairro, $cidade, $estado){
+		if ($user = registrarUsuario($nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha, $cep, $end, $num, $complemento, $bairro, $cidade, $estado)){
 			return $user;
 		} else {
 			return false;

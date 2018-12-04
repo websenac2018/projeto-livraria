@@ -1,9 +1,9 @@
 <?php
 require_once 'service.php';
 	if (isset($_POST['btn-enviar'])){
-			if (serviceRegistro($_POST['login'], $_POST['nome'], $_POST['sobrenome'], $_POST['email'], $_POST['cpf'], $_POST['data_nascimento'], $_POST['genero'], $_POST['senha'])){
-				echo "funcionou";
+			if ($user = serviceLogin($_POST['txtNome'], $_POST['txtSobrenome'], $_POST['txtEmail'], $_POST['txtCPF'], $_POST['txtDataNasc'], $_POST['txtGenero'], $_POST['senha'])){
+				$_SESSION['user'] = $user;
 			} else {
-				echo "nao funcionou";
+				
 			}
 		}

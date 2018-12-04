@@ -71,7 +71,7 @@
             <main class="col-md-10 centraliza">
                 <fieldset><!-- *************início do formulário ********************** -->
                     <legend><h1>Cadastro</h1></legend>
-                    <form action="" method="">
+                    <form action="php/registro.php" method="POST">
                         <div class="form-group"> <h4>Dados pessoais</h4>
                             <label for="iNome">Nome</label>
                             <input type="text" id="iNome" name="txtNome" class="form-control" required>
@@ -86,7 +86,7 @@
                             <input type="email" id="iEmail" name="txtEmail" class="form-control" required>
                             <br/>
                             <label for="isenha">Senha</label>
-                            <input type="password" class="form-control" id="isenha" required>
+                            <input type="password" class="form-control" id="isenha" name="isenha" required>
                             <br/>
                             <label for="iCPF">CPF</label>
                             <input type="text" id="iCPF" name="txtCPF" class="form-control cpf" required>
@@ -156,7 +156,7 @@
            
                         </div>
                         <div>
-                            <button type="submit" class="btn btn-light">Criar sua conta</button>
+                            <button type="submit" class="btn btn-light" name="btn-enviar">Criar sua conta</button>
                         </div>
                     </form>
                 </fieldset><!--********fim do formulário*************-->
