@@ -96,8 +96,8 @@
                             <br/>
                             <label for="sGenero">Sexo</label>
                             <select class="form-control" id="sGenero" name="txtGenero" required>
-                                <option value="feminino">Feminino</option>
-                                <option value="masculino">Masculino</option>
+                                <option value="2">Feminino</option>
+                                <option value="1">Masculino</option>
                             </select>
                             
                         </div>
