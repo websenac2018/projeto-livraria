@@ -71,7 +71,7 @@
             <main class="col-md-10 centraliza">
                 <fieldset><!-- *************início do formulário ********************** -->
                     <legend><h1>Cadastro</h1></legend>
-                    <form action="php/registro.php" method="POST">
+                    <form action="php/CRUDS/registroUsuario.php" method="POST">
                         <div class="form-group"> <h4>Dados pessoais</h4>
                             <label for="iNome">Nome</label>
                             <input type="text" id="iNome" name="txtNome" class="form-control" required>
