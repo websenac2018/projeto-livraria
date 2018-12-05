@@ -18,7 +18,7 @@ Projeto de conclusão de curso da turma de Programador Web (2018.2) - Unidade Ni
  </table>
 
 
-# Equipes
+# Equipe
 
 <h2> Front-end </h2>
 
