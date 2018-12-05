@@ -201,7 +201,7 @@ A grande diferença é que o método opera de forma muito mais profunda, com van
 
 ## PHP
 
-O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML.[Leia mais] https://secure.php.net/manual/pt_BR/intro-whatis.php
+O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML.[Leia mais] http://www.php.net/
 
 
 ## Framework
@@ -225,13 +225,13 @@ Mysql é a base de dados em código aberto numero um, é a numero um para a web 
 
 ## JavaScript
 
-O JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. A cada momento que uma página web faz mais do que apenas mostrar informações estáticas para você - elas mostram em tempo real conteúdos atualizados, ou mapas interativos, ou animações gráficas em 2D/3D, ou vídeos em movimento, etc.,  você pode apostar que o javascript provavelmente está envolvido.[Leia mais][https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript]
+O JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. A cada momento que uma página web faz mais do que apenas mostrar informações estáticas para você - elas mostram em tempo real conteúdos atualizados, ou mapas interativos, ou animações gráficas em 2D/3D, ou vídeos em movimento, etc.,  você pode apostar que o javascript provavelmente está envolvido.[Leia mais][https://www.javascript.com/about]
 
 
 ## HTML5
 
 
-HTML5 é a mais recente evolução do padrão que define o HTML. O termo representa dois conceitos diferentes: É uma nova versão da linguagem HTML, com novos elementos, atributos, e comportamentos.[[Leia mais][https://www.mysql.com/why-mysql/]]
+HTML5 é a mais recente evolução do padrão que define o HTML. O termo representa dois conceitos diferentes: É uma nova versão da linguagem HTML, com novos elementos, atributos, e comportamentos.[[Leia mais][https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5]
 
 
 
