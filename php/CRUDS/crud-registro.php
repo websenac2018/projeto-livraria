@@ -7,13 +7,23 @@ function registrarUsuario($nome, $sobrenome, $email, $cpf, $datanascimento, $gen
 	$id = mysqli_insert_id($conexao);
 	$sql = "INSERT INTO endereco VALUES (NULL, '$cep', '$end', '$num', '$complemento', '$bairro', '$estado', '$cidade', $id, 1)";
 	$resultado = mysqli_query($conexao, $sql);
-	return true;
+	if (mysqli_affected_rows($conexao) >= 1) {
+		return true;
+	} else {
+		return false;
+	}
 }
 function logarUsuario($email, $senha){
 	$conexao = getConnection();
 	$sql = "SELECT nome, email FROM usuarios where email = '$email' and senha = md5('$senha')";
 	$resultado = mysqli_query($conexao, $sql);
-	return mysqli_fetch_assoc($resultado);
+	if (mysqli_affected_rows($conexao) >= 1) {
+		$_SESSION['user'] = mysqli_fetch_assoc($resultado);
+		return true;
+	} else {
+		return false;
+	}
+	
 }
 function editarInformacoes($nome, $sobrenome, $email, $cpf, $datanascimento, $genero, $senha, $cep, $end, $num, $complemento, $bairro, $cidade, $estado, $id){
 	$conexao = getConnection();
@@ -21,4 +31,7 @@ function editarInformacoes($nome, $sobrenome, $email, $cpf, $datanascimento, $ge
 	$resultado = mysqli_query($conexao, $sql);
 	$sql = "UPDATE endereco SET cep = '$cep', endereco = '$end', numero = '$num', complemento = '$complemento', bairro = '$bairro', estado = '$estado', cidade = '$cidade' where usuarios_id = $id";
 	$resultado = mysqli_query($conexao, $sql);
+	if (mysqli_affected_rows($resultado) >= 1) {
+		return true;
+	}
 }

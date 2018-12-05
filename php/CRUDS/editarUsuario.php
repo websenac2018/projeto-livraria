@@ -5,8 +5,7 @@ require_once 'serviceUsuario.php';
 				$_POST['txtCPF'], $_POST['txtDataNasc'], $_POST['txtGenero'], $_POST['isenha'], 
 				$_POST['txtCEP'], $_POST['txtEndCobr'], $_POST['txtNum'], $_POST['txtComplemento'], 
 				$_POST['txtBairro'], $_POST['txtCidade'], $_POST['txtEstado'])){
-				return $user;
+				echo "funcionou";
 			} else {
-				return false;
+				echo 'não funcionou';
 			}
-		}
