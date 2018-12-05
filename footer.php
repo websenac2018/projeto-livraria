@@ -1,5 +1,5 @@
     </main>            
-            <footer class="container-fluid nopadding COLORE fontecatorze">
+            <footer class="container-fluid nopadding COLORE fontecatorze fixed-bottom">
                 <section class="row">
                     <div class="col-md-3 marginfooter">
                     <p>
