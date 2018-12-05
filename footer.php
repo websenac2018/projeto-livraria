@@ -71,18 +71,6 @@
                 $('.selectonfocus').mask("00/00/0000", {selectOnFocus: true});
             });
 		<!--fim das máscaras-->
-		<!--confirmação de senha-->
-			function validarSenha(){
-			   senha = document.getElementsByName('isenha').value;
-			   senha2 = document.getElementsByName('isenha2').value;
-
-			   if(senha!= senha2) {
-					senha2.setCustomValidity("Senhas diferentes!");
-				   return false; 
-			   }
-			   return true;
-			}
-
         </script>
 		</body>
 </html>
