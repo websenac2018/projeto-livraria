@@ -188,7 +188,7 @@ Projeto de conclusão de curso da turma de Programador Web (2018.2) - Unidade Ni
 [![License](./svg/license.svg)](./svg/license.svg)
 
 
-Este projeto tem por finalidade criar uma livraria virtual para venda de livros online, como projeto final do curso de Programador Web do Senac-Unidade Niteroi.
+Este projeto tem por finalidade criar uma livraria virtual para venda de livros online, como projeto final do curso de Programador Web do Senac da Unidade Niterói.
 
 ## Por que usar o PHP 7 com frameworks?
 
