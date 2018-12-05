@@ -1,3 +1,184 @@
+# Projeto Livraria Volare
+Projeto de conclusão de curso da turma de Programador Web (2018.2) - Unidade Niterói
+
+# Link do Site
+
+<a href="https://www.google.com.br">Livraria Volare</a>
+
+# Instrutor do Projeto
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://avatars0.githubusercontent.com/u/9484636?s=460&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/lpjunior">Luis Paulo Lessa</a>
+      </sub>
+    </td>
+ </table>
+
+
+# Equipes
+
+<h2> Front-end </h2>
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://avatars3.githubusercontent.com/u/44986577?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/cielspride">Nathália</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars0.githubusercontent.com/u/44986674?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/Mefs11">Eduarda</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars1.githubusercontent.com/u/44986626?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href="https://github.com/fjmc2016">Fernando</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars1.githubusercontent.com/u/42284087?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/gisagonz">Gisele</a>
+      </sub>
+    </td>                                        
+  </tr>
+ </table>
+ 
+<h2> Back-end </h2>
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://avatars0.githubusercontent.com/u/44986570?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/matsufrg">Roberto</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars0.githubusercontent.com/u/44986658?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/canoaFurada">Rafael</a>
+      </sub>
+    </td>    
+    <td>
+      <img src="https://avatars3.githubusercontent.com/u/44535140?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/matheusbp97">Matheus</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars1.githubusercontent.com/u/44986626?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href="https://github.com/fjmc2016">Fernando</a>
+      </sub>
+    </td>  
+  </tr>    
+ </table>
+ 
+ <h2> Banco de Dados</h2>
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://avatars1.githubusercontent.com/u/45299146?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/reinaldommo">Reinaldo</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars3.githubusercontent.com/u/45576528?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/tchaves34">Thiago</a>
+      </sub>
+    </td>        
+  </tr>
+</table>
+
+
+  <h2> Segurança e Versionamento</h2>
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://avatars2.githubusercontent.com/u/32854166?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/ygorfsilva">Ygor</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars0.githubusercontent.com/u/44986658?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/canoaFurada">Rafael</a>
+      </sub>
+    </td>         
+    <td>
+      <img src="https://avatars3.githubusercontent.com/u/44986628?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/DaniloFranklin">Danilo</a>
+      </sub>
+    </td>   
+  </tr>
+ </table>
+
+
+ <h2> Documentação</h2>
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://avatars0.githubusercontent.com/u/44986595?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/MarcelodeFaria">Marcelo</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars2.githubusercontent.com/u/44986666?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/leandrosax10">Leandro</a>
+      </sub>
+    </td>        
+    <td>
+      <img src="https://avatars3.githubusercontent.com/u/44986577?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/cielspride">Nathália</a>
+      </sub>
+    </td>   
+  </tr>
+ </table>
+
+
+ <h2>Testes</h2>
+
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://avatars0.githubusercontent.com/u/44986595?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/MarcelodeFaria">Marcelo</a>
+      </sub>
+    </td>
+    <td>
+      <img src="https://avatars3.githubusercontent.com/u/44986628?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/DaniloFranklin">Danilo</a>
+      </sub>
+    </td>       
+    <td>
+      <img src="https://avatars3.githubusercontent.com/u/44986643?s=400&v=4" width="100px;"/><br />
+      <sub>
+      <a href ="https://github.com/kdef22">Mayron</a>
+      </sub>
+    </td>   
+  </tr>
+ </table>
+
 # Projeto de uma livraria em _PHP 7_ utilizando as tecnologias **Bootstrap 4**, **Mysql**, **JavaScript**, **HTML5**, **CSS3**  e **Slim Framework**
 
 [![PHP Version](./svg/php-version.svg)](http://php.net/downloads.php)
@@ -7,7 +188,7 @@
 [![License](./svg/license.svg)](./svg/license.svg)
 
 
-Este projeto tem por finalidade criar uma livraria virtual para venda de livros online, como projeto final do curso de Programador Web do Senac-Unidade Niteroi.
+Este projeto tem por finalidade criar uma livraria virtual para venda de livros online, como projeto final do curso de Programador Web do Senac da Unidade Niterói.
 
 ## Por que usar o PHP 7 com frameworks?
 
