@@ -31,5 +31,58 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        </body>
+        <script src="js/jquery.mask.js"></script>
+        <script src="js/mask.js" type="text/javascript"></script>
+        <script>
+		<!-- máscaras -->
+            $(document).ready(function () {
+                $('.date').mask('00/00/0000');
+                $('.time').mask('00:00:00');
+                $('.date_time').mask('00/00/0000 00:00:00');
+                $('.cep').mask('00000-000');
+                //$('.phone').mask('0000-0000');
+                $('.phone_with_ddd').mask('(00) 0000-0000');
+                $('.phone_us').mask('(000) 000-0000');
+                $('.mixed').mask('AAA 000-S0S');
+                $('.cpf').mask('000.000.000-00', {reverse: true});
+                $('.cnpj').mask('00.000.000/0000-00', {reverse: true});
+                $('.money').mask('000.000.000.000.000,00', {reverse: true});
+                $('.money2').mask("#.##0,00", {reverse: true});
+                $('.ip_address').mask('0ZZ.0ZZ.0ZZ.0ZZ', {
+                    translation: {
+                        'Z': {
+                            pattern: /[0-9]/, optional: true
+                        }
+                    }
+                });
+                $('.ip_address').mask('099.099.099.099');
+                $('.percent').mask('##0,00%', {reverse: true});
+                $('.clear-if-not-match').mask("00/00/0000", {clearIfNotMatch: true});
+                $('.placeholder').mask("00/00/0000", {placeholder: "__/__/____"});
+                $('.fallback').mask("00r00r0000", {
+                    translation: {
+                        'r': {
+                            pattern: /[\/]/,
+                            fallback: '/'
+                        },
+                        placeholder: "__/__/____"
+                    }
+                });
+                $('.selectonfocus').mask("00/00/0000", {selectOnFocus: true});
+            });
+		<!--fim das máscaras-->
+		<!--confirmação de senha-->
+			function validarSenha(){
+			   senha = document.getElementsByName('isenha').value;
+			   senha2 = document.getElementsByName('isenha2').value;
+
+			   if(senha!= senha2) {
+					senha2.setCustomValidity("Senhas diferentes!");
+				   return false; 
+			   }
+			   return true;
+			}
+
+        </script>
+		</body>
 </html>
