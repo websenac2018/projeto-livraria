@@ -1,24 +1,24 @@
 <?php require_once("header.php"); ?>
-            <div class="container-fluid">
+            <div class="container-fluid col-md-8 centraliza margintop">
                 <fieldset><!-- *************início do formulário ********************** -->
                     <legend><h1>Cadastro</h1></legend>
                     <form action="php/CRUDS/registroUsuario.php" method="POST">
                         <div class="form-group"> <h4>Dados pessoais</h4>
 							<div class="row">	
 								<div class="col">	
-									<label for="iNome">Nome</label>
+									<label for="iNome">Nome:</label>
 									<input type="text" id="iNome" name="txtNome" class="form-control" maxlength="100" required>
 									<br/>
 								</div>
 								<div class="col">
-									<label for="iSobrenome">Sobrenome</label>
+									<label for="iSobrenome">Sobrenome:</label>
 									<input type="text" id="iSobrenome" name="txtSobrenome" class="form-control" maxlength="80" required>
 									<br/>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col">
-									<label for="iDataNasc">Data de nascimento</label>
+									<label for="iDataNasc">Data de nascimento:</label>
 									<input type="text" id="iDataNasc" name="txtDataNasc" class="form-control date" required>
 									<br/>
 								</div>
@@ -32,68 +32,66 @@
 							</div>
 							<div class="row">
 								<div class="col">
-									<label for="iCPF">CPF</label>
+									<label for="iCPF">CPF:</label>
 									<input type="text" id="iCPF" name="txtCPF" class="form-control cpf" required>
 									<br/>
 								</div>
 								<div class="col">
-									<label for="iTelefone">Telefone</label>
+									<label for="iTelefone">Telefone:</label>
 									<input type="text" id="i" name="txt" class="form-control phone" required>
 									<br/>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col">
-									<label for="iEmail">E-mail</label>
+									<label for="iEmail">E-mail:</label>
 									<input type="email" id="iEmail" name="txtEmail" class="form-control" maxlength="100" required>
 									<br/>
 								</div>
 								<div class="col">
-									<label for="isenha">Senha</label><!--orientações para senha? número e tipo de caracter-->
+									<label for="isenha">Senha:</label><!--orientações para senha? número e tipo de caracter-->
 									<input type="password" class="form-control" id="isenha" name="isenha" required>
 								</div>
 								<div class="col">
-									<label for="isenha2">Confirmação de Senha</label><!--script para confirmação de senha-->
-									<input type="password" class="form-control" id="isenha2" name="isenha2" required>
+									<label for="isenha2">Confirmação de Senha:</label><!--script para confirmação de senha-->
+									<input type="password" class="form-control" id="isenha2" name="isenha2"  required>
 								</div>
 							</div>
                         </div>
                         <br/>
-                        <div class="form-group"><h4>Endereço (cobrança)</h4><br/><!-- mudar estilo do texto-->
+                        <div class="form-group"><h4>Endereço de cobrança</h4><br/><!-- mudar estilo do texto-->
                             <div class="row">
-								<div class="col"><!--adicionar tipo de coluna, testar layout-->
-									<label for="iCEP">CEP</label>
+								<div class="col-md-2"><!--adicionar tipo de coluna, testar layout-->
+									<label for="iCEP">CEP:</label>
 									<input type="text" id="iCEP" name="txtCEP" class="form-control cep" required>
 								</div>
-							</div>
-							<div class="row">
 								<div class="col"><!--adicionar tipo de coluna, testar layout-->
-									<label for="iEndCobr">Endereço</label>
+									<label for="iEndCobr">Endereço:</label>
 									<input type="text" id="iEndCobr" name="txtEndCobr" class="form-control" required maxlength="255">
 								</div>	
 							</div>
 							<div class="row">
 								<div class="col">
-									<label for="iNum">Número</label>
+									<label for="iNum">Número:</label>
 									<input type="text"  id="iNum" name="txtNum" class="form-control" required maxlength="10">
 								</div>
 								<div class="col">
-									<label for="iComplemento">Complemento</label>
+									<label for="iComplemento">Complemento:</label>
 									<input type="text"  id="iComplemento" name="txtComplemento" class="form-control" required maxlength="15">
 									<br/>
 								</div>
 								<div class="col">
-									<label for="iBairro">Bairro</label>
+									<label for="iBairro">Bairro:</label>
 									<input type="text"  id="iBairro" name="txtBairro" class="form-control" required maxlength="50">
 								</div>
 							</div>
-							<div class="row">		
+							<div class="row">	
 								<div class="col">
-									<label for="iCidade">Cidade</label>
+									<label for="iCidade">Cidade:</label>
 									<input type="text"  id="iCidade" name="txtCidade" class="form-control" required maxlength="50">
 								</div>
 								<div class="col">
-									<label for="sEstado">Estado</label>
+									<label for="sEstado">Estado</label><!-- PESSOAL DO PHP: tem que puxar esse select do banco de dados, só coloquei pra ficar mais fácil de vizualizar-->	
 									<select id="sEstado" name="txtEstado" class="form-control">
 										<option value="AC">Acre</option>
 										<option value="AL">Alagoas</option>
@@ -125,10 +123,14 @@
 									</select>
 								</div>
 							</div>
+							<br/>
+							<div class="row">
+							<div class="col">
+                            		<button type="submit" class="btn COLORE" name="btn-enviar" >Criar sua conta</button><!--value??-->
+                        		</div>
+							</div>
                         </div>
-                        <div>
-                            <button type="submit" class="btn btn-light" name="btn-enviar" onclick="return validarSenha()">Criar sua conta</button><!--value??-->
-                        </div>
+                        
                     </form>
                 </fieldset><!--********fim do formulário*************-->
 <?php require_once("footer.php"); ?>

@@ -1,4 +1,4 @@
-# Projeto de uma livraria em _PHP 7_ utilizando as tecnologias **Bootstrap 4**, **mysql**, **javascript**, **html5**, **css3**  e **Slim Framework**
+# Projeto de uma livraria em _PHP 7_ utilizando as tecnologias **Bootstrap 4**, **Mysql**, **JavaScript**, **HTML5**, **CSS3**  e **Slim Framework**
 
 [![PHP Version](./svg/php-version.svg)](http://php.net/downloads.php)
 [![Bootstrap](./svg/bootstrap.svg)](https://getbootstrap.com/docs/4.1/getting-started/download/)
@@ -9,71 +9,71 @@
 
 Este projeto tem por finalidade criar uma livraria virtual para venda de livros online, como projeto final do curso de Programador Web do Senac-Unidade Niteroi.
 
-##Por que usar o PHP 7 com frameworks?
+## Por que usar o PHP 7 com frameworks?
 
 
-Usar frameworks é algo que já faz parte do dia a dia da maioria dos desenvolvedores, especialmente de quem trabalha com um grande número de projetos que usam funções similares. Afinal, a possibilidade de reutilizar códigos com poucas alterações ajuda a poupar tempo.
+Usar frameworks Ã© algo que jÃ¡ faz parte do dia a dia da maioria dos desenvolvedores, especialmente de quem trabalha com um grande nÃºmero de projetos que usam funÃ§Ãµes similares. Afinal, a possibilidade de reutilizar cÃ³digos com poucas alteraÃ§Ãµes ajuda a poupar tempo.
 
-Isso porque, o framework dá uma caixa de ferramentas para o programador que vai além do que é oferecido pela linguagem. Seu conceito, porém, pode ser confuso em relação a outras formas de aproveitar códigos em vários projetos, como a orientação a objetos e as classes, por exemplo.
+Isso porque, o framework dÃ¡ uma caixa de ferramentas para o programador que vai alÃ©m do que Ã© oferecido pela linguagem. Seu conceito, porÃ©m, pode ser confuso em relaÃ§Ã£o a outras formas de aproveitar cÃ³digos em vÃ¡rios projetos, como a orientaÃ§Ã£o a objetos e as classes, por exemplo.
 
-A grande diferença é que o método opera de forma muito mais profunda, com vantagens e desvantagens. Por isso, neste post  explicamos o que é framework e qual é seu impacto no desenvolvimento de projetos.
+A grande diferenÃ§a Ã© que o mÃ©todo opera de forma muito mais profunda, com vantagens e desvantagens. Por isso, neste post  explicamos o que Ã© framework e qual Ã© seu impacto no desenvolvimento de projetos.
 
-##PHP
+## PHP
 
-O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML.[Leia mais] https://secure.php.net/manual/pt_BR/intro-whatis.php
-
-
-##Framework
+O PHP (um acrÃ´nimo recursivo para PHP: Hypertext Preprocessor) Ã© uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML.[Leia mais] https://secure.php.net/manual/pt_BR/intro-whatis.php
 
 
-Basicamente é um template com diversas funções que podem ser usadas pelo desenvolvedor. Com ele, é desnecessário gastar tempo para reproduzir a mesma função em diferentes projetos.
-
-Uma boa comparação é a da **caixa de ferramentas**. Só que, em vez de _chaves de fenda_ e _martelos_, há bases para _formulários de login_, _validação de campos_ e _conexão com bancos de dados_.
-
-Nesse sentido, como parte da tendência de buscar reduzir custos e aumentar a produtividade, o uso desse recurso tem se tornado cada vez mais popular. Hoje, já existe uma grande variedade de soluções disponíveis para as mais diversas linguagens, com comunidades que testam e a criam diferentes funções. [Leia mais][https://gaea.com.br/entenda-o-que-e-framework/]
-
-##Bootstrap
+## Framework
 
 
-O Bootstrap é uma ferramenta gratuta para desenvolvimento HTML, CSS e JS. Com ele criamos protótipos rápidamente ou aplicações completas com variáveis e mixins Sass, sistemas de grid responsivo, componentes pré-construídos e poderosos plugins com jQuery. [Leia mais][https://getbootstrap.com.br/docs/4.1/getting-started/introduction/]
+Basicamente Ã© um template com diversas funÃ§Ãµes que podem ser usadas pelo desenvolvedor. Com ele, Ã© desnecessÃ¡rio gastar tempo para reproduzir a mesma funÃ§Ã£o em diferentes projetos.
 
-##Mysql
+Uma boa comparaÃ§Ã£o Ã© a da **caixa de ferramentas**. SÃ³ que, em vez de _chaves de fenda_ e _martelos_, hÃ¡ bases para _formulÃ¡rios de login_, _validaÃ§Ã£o de campos_ e _conexÃ£o com bancos de dados_.
 
+Nesse sentido, como parte da tendÃªncia de buscar reduzir custos e aumentar a produtividade, o uso desse recurso tem se tornado cada vez mais popular. Hoje, jÃ¡ existe uma grande variedade de soluÃ§Ãµes disponÃ­veis para as mais diversas linguagens, com comunidades que testam e a criam diferentes funÃ§Ãµes. [Leia mais][https://gaea.com.br/entenda-o-que-e-framework/]
 
-Mysql é a base de dados em código aberto numero um, é a numero um para a web e uma excelente base dados para embarcar. Muitas das maiores e mais crescentes organizações do mundo, incluindo facebook, google, adobe, alcatel lucent e zappos, confiam no Mysql para economizar tempo e dinheiro.[Leia mais][https://www.mysql.com/why-mysql/]
-
-##Javascript
-
-O JavaScript é uma linguagem de programação que permite implementar funcionalidades mais complexas em páginas web. A cada momento que uma página web faz mais do que apenas mostrar informações estáticas para você - elas mostram em tempo real conteúdos atualizados, ou mapas interativos, ou animações gráficas em 2D/3D, ou vídeos em movimento, etc.,  você pode apostar que o javascript provavelmente está envolvido.[Leia mais][https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript]
+## Bootstrap
 
 
-##HTML5
+O Bootstrap Ã© uma ferramenta gratuta para desenvolvimento HTML, CSS e JS. Com ele criamos protÃ³tipos rÃ¡pidamente ou aplicaÃ§Ãµes completas com variÃ¡veis e mixins Sass, sistemas de grid responsivo, componentes prÃ©-construÃ­dos e poderosos plugins com jQuery. [Leia mais][https://getbootstrap.com.br/docs/4.1/getting-started/introduction/]
+
+## MySql
 
 
-HTML5 é a mais recente evolução do padrão que define o HTML. O termo representa dois conceitos diferentes: É uma nova versão da linguagem HTML, com novos elementos, atributos, e comportamentos.[[Leia mais][https://www.mysql.com/why-mysql/]]
+Mysql Ã© a base de dados em cÃ³digo aberto numero um, Ã© a numero um para a web e uma excelente base dados para embarcar. Muitas das maiores e mais crescentes organizaÃ§Ãµes do mundo, incluindo facebook, google, adobe, alcatel lucent e zappos, confiam no Mysql para economizar tempo e dinheiro.[Leia mais][https://www.mysql.com/why-mysql/]
+
+## JavaScript
+
+O JavaScript Ã© uma linguagem de programaÃ§Ã£o que permite implementar funcionalidades mais complexas em pÃ¡ginas web. A cada momento que uma pÃ¡gina web faz mais do que apenas mostrar informaÃ§Ãµes estÃ¡ticas para vocÃª - elas mostram em tempo real conteÃºdos atualizados, ou mapas interativos, ou animaÃ§Ãµes grÃ¡ficas em 2D/3D, ou vÃ­deos em movimento, etc.,  vocÃª pode apostar que o javascript provavelmente estÃ¡ envolvido.[Leia mais][https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript]
+
+
+## HTML5
+
+
+HTML5 Ã© a mais recente evoluÃ§Ã£o do padrÃ£o que define o HTML. O termo representa dois conceitos diferentes: Ã‰ uma nova versÃ£o da linguagem HTML, com novos elementos, atributos, e comportamentos.[[Leia mais][https://www.mysql.com/why-mysql/]]
 
 
 
-##CSS3
+## CSS3
 
-CSS3 é a mais recente evolução da linguagem Cascading Style Sheets (Folhas de Estilo em Cascata) que estende o CSS2.1. Ela traz uma série de novidades bastante esperadas, como cantos arredondados, sombras, gradientes , transições ou animações , bem como novos layouts como multi-colunas , caixas flexíveis ou layouts de grade.[Leia mais] https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS3
+CSS3 Ã© a mais recente evoluÃ§Ã£o da linguagem Cascading Style Sheets (Folhas de Estilo em Cascata) que estende o CSS2.1. Ela traz uma sÃ©rie de novidades bastante esperadas, como cantos arredondados, sombras, gradientes , transiÃ§Ãµes ou animaÃ§Ãµes , bem como novos layouts como multi-colunas , caixas flexÃ­veis ou layouts de grade.[Leia mais] https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS3
 
 
 
 ## Slim Framework
 
 
-O Slim é um micro-framework PHP que ajuda você a escrever rapidamente aplicações web e APIs simples, porém poderosas. [Leia mais][https://www.slimframework.com/]
+O Slim Ã© um micro-framework PHP que ajuda vocÃª a escrever rapidamente aplicaÃ§Ãµes web e APIs simples, porÃ©m poderosas. [Leia mais][https://www.slimframework.com/]
 
-- **Roteador HTTP**. O Slim fornece um roteador rápido e poderoso que mapeia os retornos de chamadas de rota para métodos de solicitação de HTTP e URIs específicos. Suporta parâmetros e correspondência de padrões.
+- **Roteador HTTP**. O Slim fornece um roteador rÃ¡pido e poderoso que mapeia os retornos de chamadas de rota para mÃ©todos de solicitaÃ§Ã£o de HTTP e URIs especÃ­ficos. Suporta parÃ¢metros e correspondÃªncia de padrÃµes.
 
-- **Middleware**. Construa seu aplicativo com middleware concêntrico para ajustar os objetos de solicitação e resposta HTTP em torno do seu aplicativo Slim.
+- **Middleware**. Construa seu aplicativo com middleware concÃªntrico para ajustar os objetos de solicitaÃ§Ã£o e resposta HTTP em torno do seu aplicativo Slim.
 
-- **Suporte PSR-7**. O Slim suporta qualquer implementação de mensagem HTTP do PSR-7 para que você possa inspecionar e manipular o método, o status, o URI, os cabeçalhos, os cookies e o corpo da mensagem HTTP.
+- **Suporte PSR-7**. O Slim suporta qualquer implementaÃ§Ã£o de mensagem HTTP do PSR-7 para que vocÃª possa inspecionar e manipular o mÃ©todo, o status, o URI, os cabeÃ§alhos, os cookies e o corpo da mensagem HTTP.
 
-- **Injeção de dependência**. O Slim suporta injeção de dependência para que você tenha controle total de suas ferramentas externas. Use qualquer contêiner Container-Interop.
+- **InjeÃ§Ã£o de dependÃªncia**. O Slim suporta injeÃ§Ã£o de dependÃªncia para que vocÃª tenha controle total de suas ferramentas externas. Use qualquer contÃªiner Container-Interop.
 
-## Licença
+## LicenÃ§a
 
 
 [MIT License](./LICENSE).
