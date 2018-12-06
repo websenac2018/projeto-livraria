@@ -1,4 +1,5 @@
 <?php require_once("header.php"); ?>
+<script src="js/facebook-sdk.js"></script>
     <div class="container-fluid col-md-8 centraliza margintop">
         <div class="row">
             <div class="col-md-6 centraliza">
@@ -38,8 +39,11 @@
                 <h2>Conectar com sua rede social</h2>
                 <div class="form-group"> 
                                 <div class="col-sm-offset-2 col-md-10">
-                                    <button type="submit" class="btn COLORE" name="btn-enviar" onclick="">Facebook</button>
+                                    <div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+                                    <p id="mensagem"></p>
+                                    <a href="#" onclick="FB.logout();">Logout</a>
                                 </div>
+
                 
             </div>
         </div>
