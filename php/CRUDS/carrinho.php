@@ -14,7 +14,7 @@ if(!isset($_SESSION['carrinho'])) {
 }
 if(isset($_GET['id'])){
   $_POST['id_produto'] = $_GET['id'];
-  $_POST['nome_produto'] = array($_POST['id_produto'] => (intval($_POST['quantity'])) !== NULL ? intval($_POST['quantity']) : '');
+  $_POST['detalhes_produto'] = array($_POST['id_produto'] => (intval($_POST['quantity'])) !== NULL ? intval($_POST['quantity']) : '');
 }
 if(isset($_GET['acao'])) {
     # Adiciona o produto
@@ -39,8 +39,8 @@ if(isset($_GET['acao'])) {
     }
     # Altera quantidade
     if($_GET['acao'] == 'atu') {
-        if(is_array($_POST['nome_produto'])) {
-            foreach ($_POST['nome_produto'] as $id => $qtd) {
+        if(is_array($_POST['detalhes_produto'])) {
+            foreach ($_POST['detalhes_produto'] as $id => $qtd) {
                 $id = intval($id);
                 $qtd = intval($qtd);
                 if(!empty($qtd) || $qtd != 0) {
