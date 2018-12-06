@@ -14,8 +14,9 @@
   <body>
   	<?php 
   		$livros = array('livro1' => array('titulo' => 'Livro 1', 'categoria' => 'ação', 'autor' => 'Thiago', 'qtd' => 10, 'id' => 1), 
-  		'livro2' => array('titulo' => 'Livro 2', 'categoria' => 'aventura', 'autor' => 'Reinaldo', 'qtd' => 3, 'id' => 2),
+  		'livro2' => array('titulo' => 'Livro 2', 'categoria' => 'aventura', 'autor' => 'Reinaldo', 'qtd' => 3, 'id' => 2),  
   		'livro3' => array('titulo' => 'Livro 3', 'categoria' => 'Didatico', 'autor' => 'Roberto', 'qtd' => 7, 'id' => 3));
+
   	?>
   	<hr class="mt-5">
     <div class="row mt-5">
@@ -39,11 +40,18 @@
     <?php 
     		if (isset($_SESSION['carrinho'])) {
     			$cart = $_SESSION['carrinho'];
-    			foreach ($livros as $b => $i) {?>
+    			foreach ($livros as $b => $i) {
+            if ($_SESSION['carrinho'][$i['id']] != 0) {
+            ?>
     				Título: <?= $i['titulo'];?>
     				Quantidade: <?= $_SESSION['carrinho'][$i['id']]?>
-    				<a href="carrinho.php?acao=del&id=<?=$livros['livro1']['id']?>">Tirar do carrinho</a><br>
-    		<?php } } ?>
+            <form method="POST" action="carrinho.php?acao=atu&id=<?=$i['id']?>">
+            <input type="text" name="quantity" required>
+            <input class='btn' type="submit" name="enviar" value="Editar quantidade">
+            </form>
+    				<a href="carrinho.php?acao=del&id=<?=$i['id']?>">Tirar do carrinho</a><br>
+    		<?php } } } ?>
+      </div>
     			 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
