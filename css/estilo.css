@@ -1,5 +1,5 @@
 body{
-    font-family: "courier";
+    font-family: "trebuchet";
 }
 
 .nopadding{
@@ -9,6 +9,10 @@ body{
 
 .paddingtop{
     padding-top: 10px;
+}
+
+alinhamentotexto {
+  text-align: left;
 }
 
 .heading{
@@ -33,7 +37,7 @@ body{
 }
 
 .opacidade{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .bordas {
@@ -86,4 +90,8 @@ paddingsearch{
     padding-top: 25px;
     margin-bottom: 30px;
 
+}
+
+.alturafooter{
+    height: 100px;
 }
