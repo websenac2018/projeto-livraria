@@ -21,15 +21,32 @@
         </div>
     </nav>
     <!-- fim do topo -->
-<nav class="navbar navbar-expand-md navbar-dark COLORE">
+    
+    <nav class="navbar navbar-expand-md navbar-dark COLORE">
+    <!-- LOGO -->
         <div>
-            <img src="img/logomarca1.png">
-        </div>
+            <img src="img/logomarca1.png" alt="logomarca volare">
+        </div>        
+        <!-- HAMBURGER -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class=" collapse navbar-collapse " id="navbarCollapse">
+        <div class="collapse navbar-collapse " id="navbarCollapse">
             
+        <!-- DROPDOWN CATEGORIAS DA NAVBAR --> 
+            <div class="dropdown navbar-form navbar-left">
+                <button class="btn dropdown-toggle COLORE bordas text-light" type="button" id="menu1" data-toggle="dropdown"><i class="fas fa-bars"></i>&nbsp;&nbsp;CATEGORIAS
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu COLORE1" role="menu" aria-labelledby="menu1">
+                    <li role="presentation"><a role="menuitem" href="#">a</a></li>
+                    <li role="presentation"><a role="menuitem" href="#">b</a></li>
+                    <li role="presentation"><a role="menuitem" href="#">c</a></li>
+                    <li role="presentation" class="divider"></li>
+                    <li role="presentation"><a role="menuitem" href="#">d</a></li>
+                </ul>
+            </div>
+        <div class="col-md-8 centraliza">
+        <!-- LINKS NAVBAR -->    
           <ul class="navbar-nav mr-auto ">
             <li class="nav-item ">
               <a class="nav-link text-dark opacidade" href="#"><i class="fas fa-home"></i>&nbsp;Home</a>
@@ -41,7 +58,9 @@
               <a class="nav-link text-dark opacidade" href="#"><i class="fas fa-shopping-cart"></i>&nbsp;Carrinho de compras</a>
             </li>
           </ul>
-            <!-- campo de busca -->
+        </div>
+        </div> <!-- FIM DA DIV COLLAPSE HAMBURGER -->
+        <!-- CAMPO DE BUSCA -->
             <form class="form-inline mt-2 mt-md-0">
                 <div class="input-group">
                     <span class="input-group-append">
@@ -60,7 +79,6 @@
                     </span> 
                 </div>    
             </form>
-        </div>
       </nav>
     <main>
         
