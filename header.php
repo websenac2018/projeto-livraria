@@ -31,7 +31,7 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarCollapse">
+        <!-- COMEÇO DA DIV COLLAPSE HAMBURGER--> <div class="collapse navbar-collapse " id="navbarCollapse">
             
         <!-- DROPDOWN CATEGORIAS DA NAVBAR --> 
             <div class="dropdown navbar-form navbar-left">
@@ -49,7 +49,7 @@
         <!-- LINKS NAVBAR -->    
           <ul class="navbar-nav mr-auto ">
             <li class="nav-item ">
-              <a class="nav-link text-dark opacidade" href="#"><i class="fas fa-home"></i>&nbsp;Home</a>
+              <a class="nav-link text-dark opacidade" href="#"><i class="fas fa-home"></i>&nbsp;Início</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark opacidade" href="#"><i class="fas fa-user-circle"></i>&nbsp;Entre ou cadastre-se</a>
@@ -80,6 +80,7 @@
                 </div>    
             </form>
       </nav>
+    </header>
     <main>
         
 
