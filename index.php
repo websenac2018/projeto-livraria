@@ -1,5 +1,5 @@
 <?php require_once("header.php"); ?>
-
+            <!-- CAROUSEL -->
             <section class="row container-fluid">
                 <div class="col-md-10 centraliza">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -30,9 +30,9 @@
                   </div>    
                 </div>
             </section>    
-<!-- ********************** FIM DO CAROUSEL ****************** -->
+            <!-- ********************** FIM DO CAROUSEL ****************** -->
                 <!-- COMEÇO DA PRIMEIRA SECTION-->
-                <h1 class="heading COLORETEXTO col-md-8 centraliza margintop">LANÇAMENTOS</h1>
+                <h1 class="fontedezesseis COLORETEXTO col-md-8 centraliza margintop">LANÇAMENTOS</h1>
                 <section class="sectionformatacao col-md-8 centraliza">
                     <!-- começo dos cards PRIMEIRA LINHA-->
                         <div class="card-deck mb-4 text-center ">
@@ -44,7 +44,7 @@
                             </div>
                             <div class="card-body">
                                 <h4 class="fontedezesseis">Nome Sobrenome<h4>
-                                <h3>R$ 00,00</h3>
+                                <h3 class="fontevinte">R$ 00,00</h3>
                                 <a class="nav-link fontequinze" href="#">Adicionar ao carrinho</a>
                             </div>
                         </div> <!--fim da coluna 1-->
@@ -56,7 +56,7 @@
                             </div>
                             <div class="card-body">
                                 <h4 class="fontedezesseis">Nome Sobrenome<h4>
-                                <h3>R$ 00,00</h3>
+                                <h3 class="fontevinte">R$ 00,00</h3>
                                 <a class="nav-link fontequinze" href="#">Adicionar ao carrinho</a>
                             </div>
                         </div><!--fim da coluna 2-->    
@@ -68,7 +68,7 @@
                             </div>
                             <div class="card-body">
                                 <h4 class="fontedezesseis">Nome Sobrenome<h4>
-                                <h3>R$ 00,00</h3>
+                                <h3 class="fontevinte">R$ 00,00</h3>
                                 <a class="nav-link fontequinze" href="#">Adicionar ao carrinho</a>
                             </div>
                          </div><!--fim da coluna 3-->
@@ -80,7 +80,7 @@
                             </div>
                             <div class="card-body">
                                 <h4 class="fontedezesseis">Nome Sobrenome<h4>
-                                <h3>R$ 00,00</h3>
+                                <h3 class="fontevinte">R$ 00,00</h3>
                                 <a class="nav-link fontequinze" href="#">Adicionar ao carrinho</a>
                             </div>
                         </div> <!--fim da coluna 4-->
