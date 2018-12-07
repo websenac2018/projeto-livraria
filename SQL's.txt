@@ -1,47 +1,42 @@
---Inserts Banco Livraria
+﻿--Inserts Banco Livraria
+
+--insert genero
+insert into genero (genero) values ('Masculino';'Feminino');
+
+--insert tipo endereco
+insert into tipoendereco (tipo) values ('Entrega';'Cobrança';'Entrega/Cobrança');
+
+--insert perfil
+insert into perfil (perfil) values (1;2);
+
+--insert login
+insert into login (datahora) values ('06/12/2018');
 
 --insert usuarios
 insert into usuarios (nome, sobrenome, email, cpf, datanascimento, ativo, senha, perfil_id, genero_id, login_id)
 values ('Thiago', 'Chaves', 'tchaves34@gmail.com', '123456789-00', '17/02/1988', 1, md5(12345678), 2, 1, 1);
 
---insert genero
-insert into genero (genero) values ('Masculino';'Feminino');
-
 --insert endereço
 insert into endereco (cep, endereco, numero, complemento, bairro, estado, cidade, usuarios_id, TipoEndereco_id)
 values ('25715-000', 'R Sem Nome', 1234, 'Casa', 'Jardim Catarina', 'Rio de Janeiro', 'São Gonçalo', 1, 1);
 
---insert tipo endereco
-insert into tipoendereco (tipo) values ('Entrega';'Cobrança';'Entrega/Cobrança');
-
---insert login
-insert into login (datahora) values ('06/12/2018');
-
---insert telefone
-insert into telefone (numero, usuarios_id) values ('(21) 9 7958-6294', 1);
-
---insert perfil
-insert into perfil (perfil) values (1;2);
-
 --insert  tipo telefone
 insert into tipotelefone(tipo, Telefone_id) values ('Celular', 1);
 
---insert itens reservados
-insert into itens_reservados (usuarios_id, produto_id, quantidade)
-values (1, 1, 1);
-
---insert interesses 
-insert into interesses (usuarios_id, Categoria_id) values (1,1);
-
-
---insert pedidos
-insert into pedidos (usuarios_id, data_pedido) values (1, '06/12/2018');
+--insert telefone
+insert into telefone (numero, usuarios_id) values ('(21) 9 7958-6294', 1);
 
 --insert tipo de capas
 insert into tipodecapa (tipodecapa) values ('Dura');
 
 --insert categoria
 insert into categoria (categoria) values ("Ficção");
+
+--insert idioma
+insert into idioma (idioma) values ('POR');
+
+--insert subcategorias
+insert into subcategorias (assunto) values ('Ufologia');
 
 --insert produto
 insert into produto (Categoria_id, titulo, autor, editora, isbn, numeropaginas, sinopse, peso, datapublicacao, fornecedor, preco, quantidade, TipoDeCapa_id)
@@ -50,18 +45,25 @@ Em sua tripulação, formada por sete competentes profissionais, apenas um novat
 No entanto, o que eles não sabiam era que o Nostromo estava programado para cumprir uma rota diferente, um curso que os levaria a receber um oitavo passageiro, que, com o intuito de se reproduzir, espalharia o asco e o pavor.',
 '0,500', '22/06/1979', 'Fornecedor_1', '12,99', 10, 1, 1);
 
+--insert pedidos
+insert into pedidos (usuarios_id, data_pedido) values (1, '06/12/2018');
+
 --insert intens_pedidos
 insert into intens_pedidos (pedidos_id, produto_id, quantidade, preco) values (1,1,1,'12,99');
 
---insert idioma
-insert into idioma (idioma) values ('Português');
+--insert itens reservados
+insert into itens_reservados (usuarios_id, produto_id, quantidade)
+values (1, 1, 1);
+
+--insert interesses 
+insert into interesses (usuarios_id, Categoria_id) values (1,1);
 
 --insert Produto_has_Idiomas
 insert into Produto_has_Idiomas (produto_id, idioma_id) values (1,1);
+  
 
---insert subcategorias
-insert into subcategorias (assunto) values ('Ufologia');
 
+  
 -- viewer 
 
 /* create view_name as
