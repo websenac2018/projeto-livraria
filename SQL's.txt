@@ -1,20 +1,20 @@
 --Inserts Banco Livraria
 
 --insert genero
-insert into genero (genero) values ('Masculino';'Feminino');
+insert into genero (genero) values ('Masculino');
 
 --insert tipo endereco
-insert into tipoendereco (tipo) values ('Entrega';'Cobrança';'Entrega/Cobrança');
+insert into tipoendereco (tipo) values ('Entrega');
 
 --insert perfil
-insert into perfil (perfil) values (1;2);
+insert into perfil (perfil) values (1);
 
 --insert login
-insert into login (datahora) values ('06/12/2018');
+insert into login (datahora) values ('2018/12/06');
 
 --insert usuarios
 insert into usuarios (nome, sobrenome, email, cpf, datanascimento, ativo, senha, perfil_id, genero_id, login_id)
-values ('Thiago', 'Chaves', 'tchaves34@gmail.com', '123456789-00', '17/02/1988', 1, md5(12345678), 2, 1, 1);
+values ('Thiago', 'Chaves', 'tchaves34@gmail.com', '123456789-00', '2018/02/17', 1, md5(12345678), 2, 1, 1);
 
 --insert endereço
 insert into endereco (cep, endereco, numero, complemento, bairro, estado, cidade, usuarios_id, TipoEndereco_id)
@@ -43,10 +43,10 @@ insert into produto (Categoria_id, titulo, autor, editora, isbn, numeropaginas, 
 values (1, 'Alien', 'Alan Dean Foster', 'Warner Books', '9782302024618', 271, 'A princípio, mais uma missão como tantas do rebocador Nostromo: abastecer a terra com minério recolhido do espaço exterior. 
 Em sua tripulação, formada por sete competentes profissionais, apenas um novato: o oficial de ciências, designado de última hora para compor aquela expedição.
 No entanto, o que eles não sabiam era que o Nostromo estava programado para cumprir uma rota diferente, um curso que os levaria a receber um oitavo passageiro, que, com o intuito de se reproduzir, espalharia o asco e o pavor.',
-'0,500', '22/06/1979', 'Fornecedor_1', '12,99', 10, 1, 1);
+'0,500', '1979/06/22', 'Fornecedor_1', '12,99', 10, 1, 1);
 
 --insert pedidos
-insert into pedidos (usuarios_id, data_pedido) values (1, '06/12/2018');
+insert into pedidos (usuarios_id, data_pedido) values (1, '2018/06/12');
 
 --insert intens_pedidos
 insert into intens_pedidos (pedidos_id, produto_id, quantidade, preco) values (1,1,1,'12,99');
