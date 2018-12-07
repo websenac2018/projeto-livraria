@@ -3,7 +3,7 @@
             
                 <section class="row alinhamentotexto">
                     <div class="col-md-2 paddingtop">
-                        <img class="d-block w-100" src="img/logomarcafooter.png" alt="logo volare">
+                        <img class="d-block w-100 img-responsive" src="img/logomarcafooter.png" alt="logo volare">
                     </div>
                     <div class="col-md-1"></div>
                      <div class="col-md-3 paddingtop">
